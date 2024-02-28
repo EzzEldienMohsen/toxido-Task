@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-
+import { Button } from 'flowbite-react';
 const Card = ({
   id,
   suitImage,
@@ -18,16 +18,17 @@ const Card = ({
       <div className="card-body">
         <h2 className="card-title">{title}</h2>
         <p>{price}</p>
-        <div className="card-actions justify-end">
+        <div className="card-actions justify-end ">
           {/* PIECES CAROUSEL */}
           <button
-            className="badge badge-outline"
+            className="badge badge-outline "
             onClick={() => setComponent(() => components)}
           >
             pieces
           </button>
           {/* MODAL */}
-          <div className="badge badge-outline">Products</div>
+
+          <Button className=" badge badge-outline">Click me</Button>
         </div>
       </div>
     </div>

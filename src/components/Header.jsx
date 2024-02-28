@@ -15,7 +15,7 @@ const Header = () => {
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal  flex items-start justify-center">
+          <ul className="menu menu-horizontal  flex items-center justify-center">
             <li className="text-white font-bold uppercase text-lg px-10">
               made-to-measure
             </li>

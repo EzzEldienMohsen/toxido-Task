@@ -1,0 +1,245 @@
+[
+  {
+    "id": 1,
+    "suitImage": "https://www.orangesquarecairo.com/wp-content/uploads/2023/09/DSC05336-scaled.jpg",
+    "title": "TUXEDO SUIT-OFF-WHITE-PEAK LAPEL",
+    "info": [
+      "OFF WHITE TUXEDO SUIT",
+      "PEAK LAPEL WIDTH = 9 CM",
+      "SINGLE BREASTD BLAZER WITH ONE BUTTON",
+      "WELT BREAST POCKET WITH TWO BESOM POCKETS",
+      "100% PURE WOOL",
+      "ITALIAN WOOL"
+    ],
+    "price": "4500",
+    "components": [
+      {
+        "id": 1,
+        "title": "shoes",
+        "image": "https://thedapperman.in/cdn/shop/products/1_v2_ae80d14d-982a-40a4-aed7-9c754f36a584.jpg?v=1629100827",
+        "price": "800"
+      },
+      {
+        "id": 2,
+        "title": "pants",
+        "image": "https://i.ebayimg.com/images/g/EDkAAOSwwWtd2AQZ/s-l1200.webp",
+        "price": "0"
+      },
+      {
+        "id": 3,
+        "title": "shirt",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd4Y_p-_oWn4vcLNNvUSU87Y6ksJn5IkDqdw&usqp=CAU",
+        "price": "1000"
+      },
+      {
+        "id": 4,
+        "title": "jacket",
+        "image": "https://static.lodenfrey.com/out/pictures/master/product/1/00793305-001_1.jpg",
+        "price": "0"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "suitImage": "https://www.orangesquarecairo.com/wp-content/uploads/2023/09/DSC05308-scaled.jpg",
+    "title": "TUXEDO SUIT-BLACK-PEAK LAPEL",
+    "info": [
+      "BLACK TUXEDO SUIT",
+      "PEAK LAPEL WIDTH = 9 CM",
+      "SINGLE BREASTD BLAZER WITH ONE BUTTON",
+      "WELT BREAST POCKET WITH TWO BESOM POCKETS",
+      "100% PURE WOOL",
+      "ITALIAN WOOL"
+    ],
+    "price": "4500",
+    "components": [
+      {
+        "id": 1,
+        "title": "shoes",
+        "image": "https://thedapperman.in/cdn/shop/products/1_v2_ae80d14d-982a-40a4-aed7-9c754f36a584.jpg?v=1629100827",
+        "price": "800"
+      },
+      {
+        "id": 2,
+        "title": "pants",
+        "image": "https://sepapparel.com/media/catalog/product/cache/7d3918f90c87ebeeff7c7676a06215ba/f/l/flat-front-tuxedo-pants-e305.png",
+        "price": "0"
+      },
+      {
+        "id": 3,
+        "title": "shirt",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd4Y_p-_oWn4vcLNNvUSU87Y6ksJn5IkDqdw&usqp=CAU",
+        "price": "1000"
+      },
+      {
+        "id": 4,
+        "title": "jacket",
+        "image": "https://www.mrporter.com/variants/images/11813139151300810/in/w2000_q60.jpg",
+        "price": "0"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "suitImage": "https://www.orangesquarecairo.com/wp-content/uploads/2022/08/DSC08529-scaled.jpg",
+    "title": "TUXEDO SUIT-OFF-WHITE-PEAK LAPEL",
+    "info": [
+      "BLACK TUXEDO SUIT",
+      "PEAK LAPEL WIDTH = 9 CM",
+      "SINGLE BREASTD BLAZER WITH ONE BUTTON",
+      "BUTTONED, ZIPPED BLACK TROUSER",
+      "100% PURE WOOL",
+      "ITALIAN WOOL"
+    ],
+    "price": "4500",
+    "components": [
+      {
+        "id": 1,
+        "title": "shoes",
+        "image": "https://thedapperman.in/cdn/shop/products/1_v2_ae80d14d-982a-40a4-aed7-9c754f36a584.jpg?v=1629100827",
+        "price": "800"
+      },
+      {
+        "id": 2,
+        "title": "pants",
+        "image": "https://sepapparel.com/media/catalog/product/cache/7d3918f90c87ebeeff7c7676a06215ba/f/l/flat-front-tuxedo-pants-e305.png",
+        "price": "0"
+      },
+      {
+        "id": 3,
+        "title": "shirt",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd4Y_p-_oWn4vcLNNvUSU87Y6ksJn5IkDqdw&usqp=CAU",
+        "price": "1000"
+      },
+      {
+        "id": 4,
+        "title": "jacket",
+        "image": "https://static.lodenfrey.com/out/pictures/master/product/1/00793305-001_1.jpg",
+        "price": "0"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "suitImage": "https://www.orangesquarecairo.com/wp-content/uploads/2023/09/DSC05299-1365x2048.jpg",
+    "title": "TUXEDO SUIT-BLACK-SHAWL LAPEL",
+    "info": [
+      "BLACK TUXEDO SUIT",
+      "PEAK LAPEL WIDTH = 9 CM",
+      "SINGLE BREASTD BLAZER WITH ONE BUTTON",
+      "BUTTONED, ZIPPED BLACK TROUSER",
+      "100% PURE WOOL",
+      "WELT BREAST POCKET WITH TWO BESOM POCKETS",
+      "ITALIAN WOOL"
+    ],
+    "price": "4500",
+    "components": [
+      {
+        "id": 1,
+        "title": "shoes",
+        "image": "https://thedapperman.in/cdn/shop/products/1_v2_ae80d14d-982a-40a4-aed7-9c754f36a584.jpg?v=1629100827",
+        "price": "800"
+      },
+      {
+        "id": 2,
+        "title": "pants",
+        "image": "https://sepapparel.com/media/catalog/product/cache/7d3918f90c87ebeeff7c7676a06215ba/f/l/flat-front-tuxedo-pants-e305.png",
+        "price": "0"
+      },
+      {
+        "id": 3,
+        "title": "shirt",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd4Y_p-_oWn4vcLNNvUSU87Y6ksJn5IkDqdw&usqp=CAU",
+        "price": "1000"
+      },
+      {
+        "id": 4,
+        "title": "jacket",
+        "image": "https://www.mrporter.com/variants/images/11813139151300810/in/w2000_q60.jpg",
+        "price": "0"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "suitImage": "https://www.orangesquarecairo.com/wp-content/uploads/2021/11/34-768x1152-1-300x450.jpg",
+    "title": "TUXEDO SUIT-BLACK-SHAWL LAPEL",
+    "info": [
+      "BLACK TUXEDO SUIT",
+      "PEAK LAPEL WIDTH = 9 CM",
+      "SINGLE BREASTD BLAZER WITH ONE BUTTON",
+      "BUTTONED, ZIPPED BLACK TROUSER",
+      "100% PURE WOOL",
+      "WELT BREAST POCKET WITH TWO BESOM POCKETS",
+      "ITALIAN WOOL"
+    ],
+    "price": "4500",
+    "components": [
+      {
+        "id": 1,
+        "title": "shoes",
+        "image": "https://thedapperman.in/cdn/shop/products/1_v2_ae80d14d-982a-40a4-aed7-9c754f36a584.jpg?v=1629100827",
+        "price": "800"
+      },
+      {
+        "id": 2,
+        "title": "pants",
+        "image": "https://sepapparel.com/media/catalog/product/cache/7d3918f90c87ebeeff7c7676a06215ba/f/l/flat-front-tuxedo-pants-e305.png",
+        "price": "0"
+      },
+      {
+        "id": 3,
+        "title": "shirt",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd4Y_p-_oWn4vcLNNvUSU87Y6ksJn5IkDqdw&usqp=CAU",
+        "price": "1000"
+      },
+      {
+        "id": 4,
+        "title": "jacket",
+        "image": "https://www.mrporter.com/variants/images/11813139151300810/in/w2000_q60.jpg",
+        "price": "0"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "suitImage": "https://www.orangesquarecairo.com/wp-content/uploads/2022/01/DSC06235-300x450.jpg",
+    "title": "TUXEDO SUIT-BLACK-SHAWL LAPEL",
+    "info": [
+      "BLACK TUXEDO SUIT",
+      "PEAK LAPEL WIDTH = 9 CM",
+      "SINGLE BREASTD BLAZER WITH ONE BUTTON",
+      "BUTTONED, ZIPPED BLACK TROUSER",
+      "100% PURE WOOL",
+      "WELT BREAST POCKET WITH TWO BESOM POCKETS",
+      "ITALIAN WOOL"
+    ],
+    "price": "4500",
+    "components": [
+      {
+        "id": 1,
+        "title": "shoes",
+        "image": "https://thedapperman.in/cdn/shop/products/1_v2_ae80d14d-982a-40a4-aed7-9c754f36a584.jpg?v=1629100827",
+        "price": "800"
+      },
+      {
+        "id": 2,
+        "title": "pants",
+        "image": "https://sepapparel.com/media/catalog/product/cache/7d3918f90c87ebeeff7c7676a06215ba/f/l/flat-front-tuxedo-pants-e305.png",
+        "price": "0"
+      },
+      {
+        "id": 3,
+        "title": "shirt",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd4Y_p-_oWn4vcLNNvUSU87Y6ksJn5IkDqdw&usqp=CAU",
+        "price": "1000"
+      },
+      {
+        "id": 4,
+        "title": "jacket",
+        "image": "https://www.mrporter.com/variants/images/11813139151300810/in/w2000_q60.jpg",
+        "price": "0"
+      }
+    ]
+  }
+]

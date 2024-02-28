@@ -7,16 +7,21 @@
   background-size: cover;
   object-fit: fill;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 400px;
   padding-left: 100px;
   padding-top: 10px;
+}
+@media only screen and (max-width: 800px) {
+  .header {
+    height: 250px;
+  }
 }
 .small-header {
   background-image: url('https://www.shutterstock.com/image-photo/young-man-model-wearing-black-260nw-1631965870.jpg');
   background-size: cover;
   object-fit: fill;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 250px;
   padding-left: 40px;
   padding-top: 10px;
 }

@@ -6,7 +6,7 @@ import { FaBagShopping } from 'react-icons/fa6';
 
 const Header = () => {
   return (
-    <div className="lg:header small-header">
+    <div className=" header">
       <NavbarOne />
       <div className="navbar mt-10 justify-between pr-10">
         <div className="navbar-start w-[400px]">
@@ -16,16 +16,16 @@ const Header = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal  flex items-start justify-center">
-            <li className="text-white font-bold uppercase text-sm px-10">
+            <li className="text-white font-bold uppercase text-lg px-10">
               made-to-measure
             </li>
-            <li className="text-white font-bold uppercase text-sm  pr-10">
+            <li className="text-white font-bold uppercase text-lg  pr-10">
               ready-to-wear
             </li>
-            <li className="text-white font-bold uppercase text-sm  pr-10">
+            <li className="text-white font-bold uppercase text-lg  pr-10">
               shoes
             </li>
-            <li className="text-white font-bold uppercase text-sm  pr-10 ">
+            <li className="text-white font-bold uppercase text-lg  pr-10 ">
               accessories
             </li>
           </ul>

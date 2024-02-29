@@ -34,8 +34,8 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end lg:w-[200px]  justify-between items-center pl-10 lg:pl-5 border-l-[#cbcbcb] border-l-2">
-          <FaSearch className="bg-inherit text-white w-3 h-3 lg:w-5 lg:h-5  " />
-          <CiHeart className="bg-inherit text-white w-5 h-5 lg:w-7 lg:h-7  " />
+          <FaSearch className="bg-inherit text-white pl-10 w-3 h-3 lg:w-5 lg:h-5  " />
+          <CiHeart className="bg-inherit text-white pl-10 w-5 h-5 lg:w-7 lg:h-7  " />
           <Link to="/cart">
             <FaBagShopping className="bg-inherit text-white w-5 h-5 lg:w-7 lg:h-7  " />
           </Link>

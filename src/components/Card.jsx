@@ -14,7 +14,6 @@ const Card = ({
   setComponent,
 }) => {
   const [openModal, setOpenModal] = React.useState(false);
-  console.log(typeof price, 'CARD');
   return (
     <div className="card w-80 carousel-item bg-[#454545] shadow-3xl m-4">
       <figure>

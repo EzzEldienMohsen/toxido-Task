@@ -17,13 +17,6 @@ const Cart = () => {
             <Link to="/login" className="btn btn-primary btn-block mt-8">
               Please Login
             </Link>
-
-            {/* <button
-            className="btn btn-accent btn-block mt-8"
-            onClick={clearTheCart}
-          >
-            Clear Cart
-          </button> */}
           </div>
         </div>
       </div>

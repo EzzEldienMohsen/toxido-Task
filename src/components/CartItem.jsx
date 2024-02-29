@@ -7,7 +7,6 @@ const CartItem = ({ cartItem }) => {
   const dispatch = useDispatch();
 
   const { cartID, image, title, price, amount, size, info } = cartItem;
-  console.log(info);
   const removeItemFromCart = () => {
     dispatch(removeItem({ cartID }));
   };

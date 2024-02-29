@@ -11,7 +11,6 @@ const TheModal = ({
   price,
   id,
 }) => {
-  console.log(price, 'MODAL');
   return (
     <Modal show={openModal} size="full" onClose={() => setOpenModal(false)}>
       <Modal.Header>More Information</Modal.Header>

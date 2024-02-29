@@ -7,7 +7,6 @@ const Carousel = ({ products, setComponent }) => {
       <div className="h-96 carousel carousel-vertical  rounded-box lg:hidden ">
         {products.map((product) => {
           const { suitImage, price, info, id, components, title } = product;
-          console.log(price, 'CAROUSEL');
           return (
             <Card
               price={price}

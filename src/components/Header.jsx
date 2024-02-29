@@ -10,7 +10,7 @@ const Header = () => {
     <div className=" header">
       <NavbarOne />
       <div className="navbar mt-10 justify-between pr-10">
-        <div className="navbar-start w-100px lg:w-[400px]">
+        <div className="navbar-start w-[100px] lg:w-[400px]">
           <div>
             <Link to="/">
               <img src={logo} alt="logo" className=" " />
@@ -34,7 +34,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end lg:w-[200px]  justify-between items-center  lg:pl-5 border-l-[#cbcbcb] border-l-2">
-          <FaSearch className="bg-inherit text-white pl-3 w-3 h-3 lg:w-5 lg:h-5  " />
+          <FaSearch className="bg-inherit text-white pl-3 w-5 h-5  " />
           <CiHeart className="bg-inherit text-white pl-3 w-5 h-5 lg:w-7 lg:h-7  " />
           <Link to="/cart">
             <FaBagShopping className="bg-inherit text-white w-5 h-5 lg:w-7 lg:h-7  " />

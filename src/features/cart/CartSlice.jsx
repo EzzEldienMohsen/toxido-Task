@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 var getCartFromLocalStorage = () => {
-  return defaultState;
+  return JSON.parse(localStorage.getItem('cart')) || defaultState;
 };
 const defaultState = {
   cartItems: [],

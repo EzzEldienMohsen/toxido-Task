@@ -25,6 +25,7 @@ const TheModal = ({
               suitImage={suitImage}
               price={price}
               title={title}
+              info={info}
             />
           </div>
         </div>

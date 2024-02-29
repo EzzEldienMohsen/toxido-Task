@@ -4,7 +4,7 @@ import { addItem } from '../features/cart/CartSlice';
 import { amountGeneration, sizeGeneration } from '../utilities';
 import React from 'react';
 
-const ModalSecondPart = ({ id, suitImage, price, title }) => {
+const ModalSecondPart = ({ id, suitImage, price, title, info }) => {
   const [amount, setAmount] = React.useState(1);
   const [size, setSize] = React.useState();
   const handleAmount = (e) => {
@@ -19,12 +19,14 @@ const ModalSecondPart = ({ id, suitImage, price, title }) => {
     }
   };
   const cartProduct = {
-    cartID: id,
+    cartID: id + size,
     productID: id + 1,
     image: suitImage,
     title,
     price,
     amount,
+    size,
+    info,
   };
   const dispatch = useDispatch();
   const addToCart = () => {

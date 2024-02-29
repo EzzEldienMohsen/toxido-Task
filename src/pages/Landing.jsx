@@ -31,7 +31,7 @@ const Landing = () => {
     </section>
   ) : (
     <div className="w-full flex flex-col items-center justify-center">
-      <div className="-mt-48 capitalize mb-20 flex flex-col justify-center items-center  text-[#cbcbcb]">
+      <div className="-mt-32 lg:-mt-48 capitalize mb-16 lg:mb-20 flex flex-col justify-center items-center  text-[#cbcbcb]">
         <h1 className="text-xl my-6 lg:text-4xl">tuxedo</h1>
         <h2 className="text-xl lg:text-3xl">When Elegance Seek Perfection</h2>
       </div>

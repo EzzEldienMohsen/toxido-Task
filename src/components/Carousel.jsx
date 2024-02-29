@@ -5,7 +5,7 @@ import Card from './Card';
 const Carousel = ({ products, setComponent }) => {
   return (
     <>
-      <div className="h-96 carousel mt-5 carousel-vertical  rounded-box lg:hidden ">
+      <div className="h-96 carousel carousel-vertical  rounded-box lg:hidden ">
         {products.map((product) => {
           const thePrice = formatPrice(product.price);
           const { suitImage, info, id, components, title } = product;

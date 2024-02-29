@@ -4,7 +4,7 @@ const CartTotals = () => {
   var { cartTotal, shipping, tax, orderTotal } = useSelector(
     (state) => state.cart
   );
-
+  console.log(cartTotal, shipping, tax, orderTotal);
   return (
     <div className="card bg-base-200">
       <div className="card-body">

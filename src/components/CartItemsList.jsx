@@ -1,15 +1,16 @@
-import { useSelector } from 'react-redux'
-import { CartItem } from '../components'
+import { useSelector } from 'react-redux';
+import { CartItem } from '../components';
 
 const CartItemsList = () => {
-  var { cartItems } = useSelector((state) => state.cart)
+  var { cartItems } = useSelector((state) => state.cart);
+  console.log(cartItems);
   return (
     <>
       {cartItems.map((item) => {
-        return <CartItem key={item.cartID} cartItem={item} />
+        return <CartItem key={item.cartID} cartItem={item} />;
       })}
     </>
-  )
-}
+  );
+};
 
-export default CartItemsList
+export default CartItemsList;

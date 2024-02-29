@@ -3,6 +3,7 @@
 import { Button } from 'flowbite-react';
 import React from 'react';
 import TheModal from './TheModal';
+import { formatPrice } from '../utilities';
 const Card = ({
   id,
   suitImage,
@@ -13,7 +14,7 @@ const Card = ({
   setComponent,
 }) => {
   const [openModal, setOpenModal] = React.useState(false);
-
+  console.log(typeof price, 'CARD');
   return (
     <div className="card w-80 carousel-item bg-[#454545] shadow-3xl m-4">
       <figure>
@@ -21,15 +22,15 @@ const Card = ({
       </figure>
       <div className="card-body">
         <h2 className="card-title">{title}</h2>
-        <p>{price}</p>
+        <p>{formatPrice(price)}</p>
         <div className="card-actions justify-end ">
           {/* PIECES CAROUSEL */}
-          <button
+          <Button
             className="badge badge-outline "
             onClick={() => setComponent(() => components)}
           >
             pieces
-          </button>
+          </Button>
           {/* MODAL */}
 
           <Button

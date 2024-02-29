@@ -3,6 +3,7 @@ import { logo } from '../assets';
 import { FaSearch } from 'react-icons/fa';
 import { CiHeart } from 'react-icons/ci';
 import { FaBagShopping } from 'react-icons/fa6';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -11,7 +12,9 @@ const Header = () => {
       <div className="navbar mt-10 justify-between pr-10">
         <div className="navbar-start w-[400px]">
           <div>
-            <img src={logo} alt="logo" className="w-[265px] " />
+            <Link to="/">
+              <img src={logo} alt="logo" className="w-[265px] " />
+            </Link>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -33,7 +36,9 @@ const Header = () => {
         <div className="navbar-end lg:w-[200px]  justify-between items-center pl-10 lg:pl-5 border-l-[#cbcbcb] border-l-2">
           <FaSearch className="bg-inherit text-white w-3 h-3 lg:w-5 lg:h-5  " />
           <CiHeart className="bg-inherit text-white w-5 h-5 lg:w-7 lg:h-7  " />
-          <FaBagShopping className="bg-inherit text-white w-5 h-5 lg:w-7 lg:h-7  " />
+          <Link to="/cart">
+            <FaBagShopping className="bg-inherit text-white w-5 h-5 lg:w-7 lg:h-7  " />
+          </Link>
         </div>
       </div>
     </div>

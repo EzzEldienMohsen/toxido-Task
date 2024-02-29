@@ -1,11 +1,13 @@
 /* eslint-disable react/prop-types */
 
+import { formatPrice } from '../utilities';
+
 const ModalFirstPart = ({ title, price, info }) => {
   return (
     <>
       <h1 className="text-4xl text-[#767676] uppercase leading-8">{title}</h1>
       <h2 className="text-3xl text-[#515151] uppercase leading-4 mt-8 lg:mt-16">
-        {price}
+        {formatPrice(price)}
       </h2>
       <ul className="mt-8 lg:mt-16 list-disc uppercase text-xl text-[#515151]">
         {info.map((li) => {

@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+
 import { useDispatch } from 'react-redux';
 import { formatPrice, amountGeneration } from '../utilities';
 import { editItem, removeItem } from '../features/cart/CartSlice';
@@ -5,7 +7,7 @@ import { Link } from 'react-router-dom';
 const CartItem = ({ cartItem }) => {
   var dispatch = useDispatch();
 
-  var {
+  const {
     productID,
     cartID,
     image,
@@ -77,7 +79,7 @@ const CartItem = ({ cartItem }) => {
         </button>
       </div>
       {/* PRICE */}
-      <p className="text-lg font-medium sm:ml-auto">{formatPrice(price)}</p>
+      <p className="text-lg font-medium sm:ml-auto">{price}</p>
     </div>
   );
 };

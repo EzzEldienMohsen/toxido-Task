@@ -4,13 +4,12 @@ import { autoFetch } from '../utilities';
 import { useQuery } from '@tanstack/react-query';
 const Landing = () => {
   const [component, setComponent] = React.useState([]);
-  console.log(component);
   const {
     data: products,
     status,
     isFetching,
   } = useQuery({
-    queryKey: ['all'],
+    queryKey: ['suit'],
     queryFn: async () => {
       try {
         const response = await autoFetch('/suits.json');

@@ -12,9 +12,19 @@ export var formatPrice = (price) => {
   return dollarsAmount;
 };
 
-export var amountGeneration = (number) => {
+export const amountGeneration = (number) => {
   return Array.from({ length: number }, (_, index) => {
     var amount = index + 1;
+    return (
+      <option key={amount} value={amount}>
+        {amount}
+      </option>
+    );
+  });
+};
+export const sizeGeneration = (number) => {
+  return Array.from({ length: 12 }, (_, index) => {
+    var amount = number + index;
     return (
       <option key={amount} value={amount}>
         {amount}

@@ -13,7 +13,7 @@ const Header = () => {
         <div className="navbar-start w-100px lg:w-[400px]">
           <div>
             <Link to="/">
-              <img src={logo} alt="logo" className="w-[265px] " />
+              <img src={logo} alt="logo" className=" " />
             </Link>
           </div>
         </div>

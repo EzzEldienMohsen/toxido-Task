@@ -10,7 +10,7 @@ const Header = () => {
     <div className=" header">
       <NavbarOne />
       <div className="navbar mt-10 justify-between pr-10">
-        <div className="navbar-start w-[200px] lg:w-[400px]">
+        <div className="navbar-start w-[15S0px] lg:w-[400px]">
           <div>
             <Link to="/">
               <img src={logo} alt="logo" className="w-inherit " />

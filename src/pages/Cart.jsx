@@ -4,7 +4,7 @@ const Cart = () => {
   return (
     <>
       <div className="w-full flex flex-col items-center justify-center">
-        <div className="-mt-36 lg:-mt-48 capitalize mb-32 lg:mb-20 flex flex-col justify-center items-center  text-[#cbcbcb]">
+        <div className="-mt-32 lg:-mt-48 capitalize mb-16 lg:mb-20 flex flex-col justify-center items-center  text-[#cbcbcb]">
           <h1 className="text-xl my-6 md:text-6xl">cart</h1>
         </div>
         <div className="grid mt-8 gap-8 lg:grid-cols-12 w-full">

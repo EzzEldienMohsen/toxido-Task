@@ -6,7 +6,7 @@ import { editItem, removeItem } from '../features/cart/CartSlice';
 const CartItem = ({ cartItem }) => {
   const dispatch = useDispatch();
 
-  const { cartID, image, title, price, amount, size, info } = cartItem;
+  const { cartID, image, title, price, amount, size } = cartItem;
   const removeItemFromCart = () => {
     dispatch(removeItem({ cartID }));
   };

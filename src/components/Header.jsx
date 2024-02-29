@@ -33,7 +33,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end lg:w-[200px]  justify-between items-center pl-3 lg:pl-5 border-l-[#cbcbcb] border-l-2">
+        <div className="navbar-end lg:w-[200px]  justify-between items-center  lg:pl-5 border-l-[#cbcbcb] border-l-2">
           <FaSearch className="bg-inherit text-white pl-3 w-3 h-3 lg:w-5 lg:h-5  " />
           <CiHeart className="bg-inherit text-white pl-3 w-5 h-5 lg:w-7 lg:h-7  " />
           <Link to="/cart">
